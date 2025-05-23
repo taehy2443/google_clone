@@ -1,1 +1,1 @@
-# google_clone
+just frontend desing clone
