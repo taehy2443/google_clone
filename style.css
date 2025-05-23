@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+    padding:10px;
+}
+
+header span:hover {
+    text-decoration: underline;
+}
+
+#circle {
+    width : 40px;
+    height : 40px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+#apps_picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#apps_picture:hover{
+    background-color: rgb(179, 179, 179);
+    cursor:pointer;
+}
+
+
+#experiment_picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#experiment_picture:hover{
+    background-color: rgb(179, 179, 179);
+    cursor:pointer;
+}
+
+
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#google_logo_picture {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    width: 272px;
+    height: 92px;
+}
+
+#input_container {
+    position: relative;
+    width:70%;
+    max-width:800px;
+    
+}
+
+#search_input {
+    width: 100%;
+    height:48px;
+    padding: 0px 100px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 0px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline:none;
+    box-sizing: border-box;
+}
+
+
+#search_icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+#mic_icon {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+#mic_icon:hover{
+    cursor:pointer;
+}
+
+#camera_icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+#camera_icon:hover{
+    cursor:pointer;
+}
+
+#shortcut {
+    margin: 25px;
+    width: 112px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+#shortcut:hover {
+    background-color: rgb(179, 179, 179);
+    cursor:pointer;
+}
+
+#circle_shortcut {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(206, 206, 206);
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+#shortcut span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#circle_shortcut span {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    /* line-height: 1; */
+}
+
+#customize_button {
+    border-radius: 24px;
+    padding: 5px 15px;  
+    position:fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.50);
+}
+
+#customize_button:hover {
+    background-color: rgb(179, 179, 179);
+    cursor:pointer;
+}
+
+#pencil_picture {
+    width: 13px;
+    height: 13px;
+}
